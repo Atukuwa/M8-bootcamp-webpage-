@@ -1,0 +1,119 @@
+@font-face{
+    src: url(/images/ReadexPro-Medium.ttf);
+    font-family: readexpro;
+}
+body{
+    font-family: readexpro;
+    margin: 0px;
+    background: #FFC044;
+    color: #00fa;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+div.image img{
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    margin: 0px;
+}
+header{
+    margin: 50px 0;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+header img{
+    width: 30%;
+    margin: 0px 40%;
+}
+header h1,h2{
+    font-size: 25px;
+    margin: 10px 10px;
+}
+form{
+    grid-column: 2;
+}
+.field{
+    display: block;
+    margin: 40px auto;
+    width: 60%;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid #00fa;
+    color: #00fa;
+    box-shadow: 0 0 5px #00fa;
+    padding-left: 50px;
+}
+input:focus{
+    outline: none !important;
+    border-color: #00fa;
+    box-shadow: 0 0 5px #00fa;
+}
+body > section > div{
+   margin: 40px 24%;
+}
+body > section > div > p{
+    font-size: 25px;
+}
+.button{
+    margin-left: 20%;
+}
+button{
+    color: #fff;
+    background-color: purple;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px #00fa;
+    padding: 10px 20px; 
+    border-radius: 10px;
+    margin-left: 60%;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+button:hover{
+    background-color: #00fa;
+    color: #FFC044;
+}
+@media screen and (max-width: 835px){
+    button{
+        margin-left: 55%;
+    }
+}
+@media screen and (max-width: 700px){
+    div.grid{
+        display: block;
+    }
+    button{
+        margin-left: 62%;
+    }
+}
+@media screen and (max-width: 450px){
+    div.image{
+        display: none;
+    }
+    header *{
+        color: #ecc26f;
+    }
+    body{
+        background-image: url(/images/istockphoto-1331594985-170667a.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+        background-blend-mode: multiply;
+        background-color: #faa804;
+    }
+    header img{
+        width: 60%;
+        margin-left: 25%;
+    }
+    p *{
+        color:  #ecc26f;
+    }
+    button{
+        margin-left: 55%;
+    }
+}
