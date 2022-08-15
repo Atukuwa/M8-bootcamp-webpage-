@@ -1,0 +1,28 @@
+@font-face{
+    src: url(/images/ReadexPro-Medium.ttf);
+    font-family: readexpro;
+}
+body{
+    font-family: readexpro;
+    margin: 0px auto;
+    color: #00fa;
+    max-width: 400px;
+    background-color: #FFC044;
+}
+h2,h1{
+    font-size: 15px;
+    text-align: center;
+    line-height: 22px;
+}
+div{
+    background-color: #fff;
+    max-width: 200px;
+    margin: 20% auto;
+    padding: 50px;
+    border-radius: 20px;
+}
+img{
+    height: 100px;
+    width: 200px;
+    object-fit: contain;
+}

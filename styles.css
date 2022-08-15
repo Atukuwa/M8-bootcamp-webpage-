@@ -110,6 +110,9 @@ button:hover{
         width: 60%;
         margin-left: 25%;
     }
+    .button p{
+        color:  #ecc26f;
+    }
     p *{
         color:  #ecc26f;
     }
